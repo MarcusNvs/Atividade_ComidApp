@@ -1,0 +1,95 @@
+# Documentação do Projeto Anota AI (Clone)
+
+## 1. Metodologias Ágeis
+
+### Aplicação do Scrum
+- **Sprint Duration**: 1 semanas
+- **Eventos realizados**:
+  - Sprint Planning
+  - Sprint Review
+  - Sprint Retrospective
+
+### Organização da Equipe
+- Product Owner: [Marcus Vinicius Passos Neves]
+- Scrum Master: [Marcus Vinicius Passos Neves]
+- Development Team: [Marcus Vinicius Passos Neves]
+
+## 2. Gestão de Configuração
+
+### Versionamento
+Embora o projeto tenha sido realizado em um único commit, a recomendação para projetos futuros seria:
+
+#### Estrutura de Branches recomendada:
+- `main`: branch principal
+
+### Commits (Sugestão para próximos projetos)
+
+
+
+
+
+
+
+git
+feat: adiciona tela de login
+fix: corrige erro no carrinho de compras
+refactor: melhora estrutura do código da home
+test: adiciona testes unitários
+
+
+
+## 3. Reuso
+
+### Pacotes Utilizados
+1. **provider: ^6.1.1**: 
+   - Gerenciamento de estado
+   - Implementação do padrão Provider
+   - Compartilhamento de dados entre widgets
+
+2. **material_design_3**:
+   - Implementado através do ThemeData no MaterialApp
+   - Uso de componentes Material Design 3
+   - Padronização visual seguindo guidelines do Material You
+
+## 4. Normas e Métricas de Qualidade
+
+### Boas Práticas Implementadas
+- Uso de const widgets para otimização de performance
+- Implementação de widgets stateless quando possível
+- Utilização do Provider para gerenciamento de estado
+- Código limpo e organizado seguindo convenções Dart/Flutter
+
+### Análise Estática (Flutter Analyze)
+
+
+### Estrutura de Pastas
+lib/
+├── models/
+│ ├── product.dart
+│ └── cart.dart
+├── manager/
+│ └── cart_manager.dart
+├── screens/
+│ ├── home_screen.dart
+│ ├── food_screen.dart
+│ └── cart_screen.dart
+├── widgets/
+│ ├── product_card.dart
+│ └── cart_item.dart
+└── main.dart
+
+
+## 5. Qualidade e Melhorias
+
+### Pontos Fortes
+- Interface intuitiva
+- Desempenho otimizado
+- Código organizado e manutenível
+
+### Sugestões de Melhorias
+1. **Técnicas**:
+   - Implementar back-end
+
+2. **Funcionais**:
+   - Integração com sistemas de pagamento
+   - Sistema de avaliações

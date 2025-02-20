@@ -134,19 +134,19 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
     switch (category) {
       case 'Hambúrguer':
         return [
-          FoodModel(
+          const FoodModel(
             name: 'Hambúrguer 1',
             price: 'R\$ 25,90',
             description: 'Delicioso hambúrguer artesanal com queijo e bacon',
             imagePath: 'assets/images/hamburguer1.jpg',
           ),
-          FoodModel(
+          const FoodModel(
             name: 'Hambúrguer 2',
             price: 'R\$ 28,90',
             description: 'Hambúrguer duplo com cheddar e cebola caramelizada',
             imagePath: 'assets/images/hamburguer2.jpg',
           ),
-          FoodModel(
+          const FoodModel(
             name: 'Hambúrguer 3',
             price: 'R\$ 32,90',
             description: 'Hambúrguer especial da casa com molho secreto',
@@ -155,19 +155,19 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
         ];
       case 'Pizza':
         return [
-          FoodModel(
+          const FoodModel(
             name: 'Pizza 1',
             price: 'R\$ 45,90',
             description: 'Pizza de mussarela com borda recheada',
             imagePath: 'assets/images/pizza1.jpg',
           ),
-          FoodModel(
+          const FoodModel(
             name: 'Pizza 2',
             price: 'R\$ 49,90',
             description: 'Pizza de calabresa com cebola',
             imagePath: 'assets/images/pizza2.jpg',
           ),
-          FoodModel(
+          const FoodModel(
             name: 'Pizza 3',
             price: 'R\$ 52,90',
             description: 'Pizza quatro queijos especial',
@@ -176,19 +176,19 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
         ];
       case 'Bebida':
         return [
-          FoodModel(
+          const FoodModel(
             name: 'Bebida 1',
             price: 'R\$ 8,90',
             description: 'Refrigerante 350ml',
             imagePath: 'assets/images/refrigerante1.jpg',
           ),
-          FoodModel(
+          const FoodModel(
             name: 'Bebida 2',
             price: 'R\$ 12,90',
             description: 'Suco natural 500ml',
             imagePath: 'assets/images/refrigerante2.jpg',
           ),
-          FoodModel(
+          const FoodModel(
             name: 'Bebida 3',
             price: 'R\$ 15,90',
             description: 'Milk-shake especial 400ml',
