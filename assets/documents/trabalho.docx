@@ -1,0 +1,29 @@
+# Documentação do Projeto Anota AI (Clone)
+
+## 1. Metodologias Ágeis
+
+### Aplicação do Scrum
+- **Sprint Duration**: 2 semanas
+- **Eventos realizados**:
+  - Daily Scrum (reuniões diárias de 15 minutos)
+  - Sprint Planning
+  - Sprint Review
+  - Sprint Retrospective
+
+### Organização da Equipe
+- Product Owner: [Nome]
+- Scrum Master: [Nome]
+- Development Team: [Membros]
+
+## 2. Gestão de Configuração
+
+### Versionamento
+Embora o projeto tenha sido realizado em um único commit, a recomendação para projetos futuros seria:
+
+#### Estrutura de Branches recomendada:
+- `main`: branch principal
+- `develop`: branch de desenvolvimento
+- `feature/*`: branches para novas funcionalidades
+- `hotfix/*`: branches para correções urgentes
+
+### Commits (Sugestão para próximos projetos) 
